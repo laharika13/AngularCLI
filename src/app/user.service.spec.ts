@@ -9,7 +9,7 @@ describe('UserService', () => {
   let httpMock: HttpTestingController;
 
   const mockData =  {
-    "name":"King Julien",
+    "name":"King JI Julien",
     "email":"kingj@email.com",
     "bio":"Hi my name is King Julien and I like to move it move it.",
     "img":"https://tinyurl.com/2p9953zy"

@@ -43,8 +43,8 @@ describe('ProfilePageComponent', () => {
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.title')?.textContent).toEqual('Profile');
-    expect(component.profile.name).toEqual('King Li Julien');
-    expect(compiled.querySelector('.user-name')?.textContent).toEqual('King Julien');
+    expect(component.profile.name).toEqual('King JI Julien');
+    expect(compiled.querySelector('.user-name')?.textContent).toEqual('King JI Julien');
     expect(component.profile.email).toEqual('kingj@email.com');
     expect(compiled.querySelector('.user-email')?.textContent).toEqual('kingj@email.com');
     expect(component.profile.bio).toEqual('Hi my name is King Julien and I like to move it move it.');
